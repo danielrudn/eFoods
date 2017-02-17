@@ -9,6 +9,14 @@ Essentially eFoods is a simple ecommerce website for food products. The site mus
 category pages, provide functionality to search for a specific product, add to/delete from shopping cart, perform a checkout, and 
 lastly, be able to view and revisit a purchase order summary form.
 
+##### Some screenshots of the website itself:
+
+![home](screenshots/home.png "homepage")
+
+![category](screenshots/category.png "category")
+
+![cart](screenshots/cart.png "cart")
+
 #### Analytics / Ad-hoc functionality
 
 For analytics the management wants to be able to determine the average time taken for a client to add an item to the cart
