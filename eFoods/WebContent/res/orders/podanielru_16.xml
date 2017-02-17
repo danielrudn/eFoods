@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order id="16" submitted="2016-12-05T00:21:26.137-05:00">
+    <customer account="danielru">
+        <name>Daniel Rudnitski</name>
+    </customer>
+    <items>
+        <item number="2910h074">
+            <name>L5 Oat Cereal</name>
+            <quantity>1</quantity>
+            <price>4.92</price>
+            <extended>4.92</extended>
+        </item>
+    </items>
+    <total>4.92</total>
+    <shipping>5.0</shipping>
+    <HST>0.6396000000000001</HST>
+    <grandTotal>10.5596</grandTotal>
+</order>

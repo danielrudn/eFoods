@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order id="49" submitted="2016-12-05T22:17:44.996-05:00">
+    <customer account="danielru">
+        <name>Daniel Rudnitski</name>
+    </customer>
+    <grandTotal>35.860299999999995</grandTotal>
+    <HST>3.5503</HST>
+    <items>
+        <item number="2910h074">
+            <extended>4.92</extended>
+            <name>L5 Oat Cereal</name>
+            <price>4.92</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="1409S123">
+            <extended>6.12</extended>
+            <name>E8 Nuts Ice Cream</name>
+            <price>6.12</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="2910h123">
+            <extended>4.4</extended>
+            <name>C9 Multigrain Cereal</name>
+            <price>2.2</price>
+            <quantity>2</quantity>
+        </item>
+        <item number="1409S413">
+            <extended>6.4399999999999995</extended>
+            <name>K5 Praline Ice Cream</name>
+            <price>6.4399999999999995</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="2002H712">
+            <extended>5.43</extended>
+            <name>Semi-Monterey Cheese by GK</name>
+            <price>5.43</price>
+            <quantity>1</quantity>
+        </item>
+    </items>
+    <shipping>5.0</shipping>
+    <total>27.31</total>
+</order>

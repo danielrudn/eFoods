@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order id="4" submitted="2016-12-05T00:03:42.396-05:00">
+    <customer account="danielru">
+        <name>Daniel Rudnitski</name>
+    </customer>
+    <items>
+        <item number="2002H226">
+            <name>Semi-Hard Monterey Cheese by MA</name>
+            <quantity>2</quantity>
+            <price>3.96</price>
+            <extended>7.92</extended>
+        </item>
+        <item number="2002H827">
+            <name>Soft Edam Cheese by OJ</name>
+            <quantity>3</quantity>
+            <price>6.7</price>
+            <extended>20.1</extended>
+        </item>
+        <item number="2002H397">
+            <name>Semi-Soft Provolone Cheese by IU</name>
+            <quantity>2</quantity>
+            <price>5.88</price>
+            <extended>11.76</extended>
+        </item>
+        <item number="2002H618">
+            <name>Semi-Edam Cheese by IJ</name>
+            <quantity>4</quantity>
+            <price>5.36</price>
+            <extended>21.44</extended>
+        </item>
+        <item number="2002H302">
+            <name>Edam Cheese by MW</name>
+            <quantity>2</quantity>
+            <price>5.01</price>
+            <extended>10.02</extended>
+        </item>
+        <item number="2002H608">
+            <name>Fruilano Cheese by CP</name>
+            <quantity>10</quantity>
+            <price>4.11</price>
+            <extended>41.1</extended>
+        </item>
+        <item number="2002H815">
+            <name>Gouda Cheese by YD</name>
+            <quantity>2</quantity>
+            <price>5.88</price>
+            <extended>11.76</extended>
+        </item>
+        <item number="2002H795">
+            <name>Semi-Fruilano Cheese by YF</name>
+            <quantity>3</quantity>
+            <price>4.82</price>
+            <extended>14.46</extended>
+        </item>
+    </items>
+    <total>138.56</total>
+    <shipping>0.0</shipping>
+    <HST>18.012800000000002</HST>
+    <grandTotal>156.5728</grandTotal>
+</order>

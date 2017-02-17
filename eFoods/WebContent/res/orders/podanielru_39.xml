@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order id="39" submitted="2016-12-05T07:49:45.227-05:00">
+    <customer account="danielru">
+        <name>Daniel Rudnitski</name>
+    </customer>
+    <grandTotal>54.426199999999994</grandTotal>
+    <HST>5.6861999999999995</HST>
+    <items>
+        <item number="2910h074">
+            <extended>4.92</extended>
+            <name>L5 Oat Cereal</name>
+            <price>4.92</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="2002H123">
+            <extended>3.84</extended>
+            <name>Provolone Cheese by RI</name>
+            <price>3.84</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="1409S250">
+            <extended>5.0600000000000005</extended>
+            <name>G8 Praline Ice Cream</name>
+            <price>5.0600000000000005</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="2910h019">
+            <extended>9.99</extended>
+            <name>L6 Fruits Cereal</name>
+            <price>3.33</price>
+            <quantity>3</quantity>
+        </item>
+        <item number="2910h129">
+            <extended>2.8899999999999997</extended>
+            <name>D4 Almond Cereal</name>
+            <price>2.8899999999999997</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="2002H063">
+            <extended>17.04</extended>
+            <name>Semi-Cheddar Cheese by JC</name>
+            <price>4.26</price>
+            <quantity>4</quantity>
+        </item>
+    </items>
+    <shipping>5.0</shipping>
+    <total>43.739999999999995</total>
+</order>

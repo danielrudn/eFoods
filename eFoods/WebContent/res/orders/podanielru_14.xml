@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order id="14" submitted="2016-12-05T00:18:04.818-05:00">
+    <customer account="danielru">
+        <name>Daniel Rudnitski</name>
+    </customer>
+    <items>
+        <item number="1409S250">
+            <name>G8 Praline Ice Cream</name>
+            <quantity>1</quantity>
+            <price>5.0600000000000005</price>
+            <extended>5.0600000000000005</extended>
+        </item>
+    </items>
+    <total>5.0600000000000005</total>
+    <shipping>5.0</shipping>
+    <HST>0.6578</HST>
+    <grandTotal>10.7178</grandTotal>
+</order>

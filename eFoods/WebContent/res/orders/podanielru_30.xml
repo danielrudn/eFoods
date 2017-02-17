@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order id="30" submitted="2016-12-05T03:01:02.814-05:00">
+    <customer account="danielru">
+        <name>Daniel Rudnitski</name>
+    </customer>
+    <grandTotal>24.8089</grandTotal>
+    <HST>2.2789</HST>
+    <items>
+        <item number="2002H397">
+            <extended>5.88</extended>
+            <name>Semi-Soft Provolone Cheese by IU</name>
+            <price>5.88</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="2002H341">
+            <extended>6.29</extended>
+            <name>Semi-Colby Cheese by TX</name>
+            <price>6.29</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="2002H136">
+            <extended>5.36</extended>
+            <name>Soft Monterey Cheese by PY</name>
+            <price>5.36</price>
+            <quantity>1</quantity>
+        </item>
+    </items>
+    <shipping>5.0</shipping>
+    <total>17.53</total>
+</order>

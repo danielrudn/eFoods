@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order id="24" submitted="2016-12-05T02:52:38.442-05:00">
+    <customer account="danielru">
+        <name>Daniel Rudnitski</name>
+    </customer>
+    <grandTotal>12.3337</grandTotal>
+    <HST>0.8437</HST>
+    <items>
+        <item number="0905A044">
+            <extended>6.49</extended>
+            <name>Minced Rib Meat by VX</name>
+            <price>6.49</price>
+            <quantity>1</quantity>
+        </item>
+    </items>
+    <shipping>5.0</shipping>
+    <total>6.49</total>
+</order>

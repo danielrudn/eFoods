@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order id="28" submitted="2016-12-05T02:58:04.907-05:00">
+    <customer account="danielru">
+        <name>Daniel Rudnitski</name>
+    </customer>
+    <grandTotal>8.265699999999999</grandTotal>
+    <HST>0.3757</HST>
+    <items>
+        <item number="2910h129">
+            <extended>2.8899999999999997</extended>
+            <name>D4 Almond Cereal</name>
+            <price>2.8899999999999997</price>
+            <quantity>1</quantity>
+        </item>
+    </items>
+    <shipping>5.0</shipping>
+    <total>2.8899999999999997</total>
+</order>

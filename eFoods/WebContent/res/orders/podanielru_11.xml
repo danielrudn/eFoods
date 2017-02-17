@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order id="11" submitted="2016-12-05T00:05:57.229-05:00">
+    <customer account="danielru">
+        <name>Daniel Rudnitski</name>
+    </customer>
+    <items>
+        <item number="0905A123">
+            <name>Fine Beef Meat by PQ</name>
+            <quantity>1</quantity>
+            <price>6.65</price>
+            <extended>6.65</extended>
+        </item>
+        <item number="0905A112">
+            <name>T6 Sirloin Meat</name>
+            <quantity>1</quantity>
+            <price>6.01</price>
+            <extended>6.01</extended>
+        </item>
+        <item number="0905A044">
+            <name>Minced Rib Meat by VX</name>
+            <quantity>1</quantity>
+            <price>6.49</price>
+            <extended>6.49</extended>
+        </item>
+    </items>
+    <total>19.15</total>
+    <shipping>5.0</shipping>
+    <HST>2.4895</HST>
+    <grandTotal>26.639499999999998</grandTotal>
+</order>

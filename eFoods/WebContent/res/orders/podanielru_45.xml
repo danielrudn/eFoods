@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order id="45" submitted="2016-12-05T16:25:36.724-05:00">
+    <customer account="danielru">
+        <name>Daniel Rudnitski</name>
+    </customer>
+    <grandTotal>21.712699999999998</grandTotal>
+    <HST>1.9226999999999999</HST>
+    <items>
+        <item number="2910h074">
+            <extended>4.92</extended>
+            <name>L5 Oat Cereal</name>
+            <price>4.92</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="0905A512">
+            <extended>6.67</extended>
+            <name>Top Cut Fillet Meat by KX</name>
+            <price>6.67</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="1409S898">
+            <extended>3.2</extended>
+            <name>Z6 Twirl Ice Cream</name>
+            <price>3.2</price>
+            <quantity>1</quantity>
+        </item>
+    </items>
+    <shipping>5.0</shipping>
+    <total>14.79</total>
+</order>

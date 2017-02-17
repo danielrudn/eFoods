@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0"
+	xmlns:c="http://java.sun.com/jsp/jstl/core">
+	<jsp:directive.page contentType="text/html; charset=UTF-8" 
+		pageEncoding="UTF-8" session="true"/>
+	<jsp:output doctype-root-element="html"
+		doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
+		doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+		omit-xml-declaration="true" />
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="StyleSheet" href="${pageContext.request.contextPath}/res/mc.css" type="text/css" title="cse4413" media="screen, print"/>
+<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+<script type="text/javascript" src="${pageContext.request.contextPath}/res/mc.js"><!----></script>
+</head>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="${pageContext.request.contextPath}">Home</a>
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a href="${pageContext.request.contextPath}/cart">
+					Cart <span class="badge" id="cart-count">
+							<c:choose>
+								<c:when test="${not empty sessionScope.cart}">${sessionScope.cart.itemCount}</c:when>
+								<c:otherwise>0</c:otherwise>
+							</c:choose>
+						</span>
+					</a>
+				</li>
+				<c:choose>
+					<c:when test="${empty sessionScope.authorizedUser}">
+						<li><a href="${pageContext.request.contextPath}/auth">Sign In</a></li>
+					</c:when>
+					<c:otherwise>
+						<li><a href="#"><span class="glyphicon glyphicon-user"></span> ${sessionScope.authorizedUser.username}</a></li>
+					</c:otherwise>
+				</c:choose>
+			</ul>
+		</div>
+	</nav>
+</jsp:root>

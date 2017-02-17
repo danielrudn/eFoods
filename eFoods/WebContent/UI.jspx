@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0"
+	xmlns:fmt="http://java.sun.com/jsp/jstl/fmt"
+	xmlns:c="http://java.sun.com/jsp/jstl/core">
+	<jsp:directive.page contentType="text/html; charset=UTF-8" 
+		pageEncoding="UTF-8" session="false"/>
+	<jsp:output doctype-root-element="html"
+		doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
+		doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+		omit-xml-declaration="true" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Foods R Us</title>
+</head>
+<body>
+<jsp:include page="nav.jspx"/>
+	<div class="category-banner" style="background-image: url('${pageContext.request.contextPath}/res/Main-bg.jpg');">
+		<h1>Foods R Us</h1>
+		<h2 style="text-shadow: 1px 1px black;">Food you can trust</h2>
+	</div>
+	<div class="container">
+		<div class="row">
+			<c:forEach items="${categories}" var="category">
+				<h3><a class="col-md-3 col-sm-3 col-xs-3" href="${pageContext.request.contextPath}/category/${category.id}">${category.name}</a></h3>
+			</c:forEach>
+		</div>
+		<hr/>
+		<h1>Products</h1>
+		<hr/>
+		<form action="search">
+			<input type="text" class="form-control" name="query" placeholder="Search..."/>
+		</form>
+		<hr/>
+		<c:forEach items="${items}" var="item">
+				<div class="item col-md-6 col-sm-6 col-xs-12">
+					<img class="col-md-2 col-sm-2 col-xs-2" style="background: ${item.hexColor};"/>
+					<div class="col-md-10 col-sm-10 col-xs-10">
+						<div class="item-name">
+							${item.name}
+							<c:forEach items="${categories}" var="category">
+								<c:if test="${category.id eq item.categoryId}">
+									<a class="pull-right label label-default" href="${pageContext.request.contextPath}/category/${item.categoryId}">${category.name}</a>
+								</c:if>
+							</c:forEach>
+						</div>
+						<div class="item-number">${item.itemNumber}</div>
+						<c:set var="price"><fmt:formatNumber value="${item.price}" type="currency"/></c:set>
+						<div>${price} ${item.unit}</div>
+						<a class="cart-btn btn btn-sm btn-success" onclick="return addToCart('${item.itemNumber}');">+</a>
+					</div>
+				</div>
+		</c:forEach>
+	</div>
+</body>
+</html>
+</jsp:root>

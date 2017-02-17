@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order id="46" submitted="2016-12-05T21:36:32.587-05:00">
+    <customer account="danielru">
+        <name>Daniel Rudnitski</name>
+    </customer>
+    <grandTotal>12.8987</grandTotal>
+    <HST>0.9087000000000001</HST>
+    <items>
+        <item number="1409S889">
+            <extended>6.99</extended>
+            <name>D7 Chocolate Ice Cream</name>
+            <price>6.99</price>
+            <quantity>1</quantity>
+        </item>
+    </items>
+    <shipping>5.0</shipping>
+    <total>6.99</total>
+</order>

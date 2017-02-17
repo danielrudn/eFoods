@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order id="40" submitted="2016-12-05T07:59:59.510-05:00">
+    <customer account="danielru">
+        <name>Daniel Rudnitski</name>
+    </customer>
+    <grandTotal>55.0477</grandTotal>
+    <HST>5.7577</HST>
+    <items>
+        <item number="1409S413">
+            <extended>6.4399999999999995</extended>
+            <name>K5 Praline Ice Cream</name>
+            <price>6.4399999999999995</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="1409S039">
+            <extended>4.5</extended>
+            <name>M8 Peanut Ice Cream</name>
+            <price>4.5</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="2910h129">
+            <extended>5.779999999999999</extended>
+            <name>D4 Almond Cereal</name>
+            <price>2.8899999999999997</price>
+            <quantity>2</quantity>
+        </item>
+        <item number="2910h309">
+            <extended>3.25</extended>
+            <name>L0 Maple Cereal</name>
+            <price>3.25</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="2910h244">
+            <extended>4.79</extended>
+            <name>G8 Honey Cereal</name>
+            <price>4.79</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="2002H302">
+            <extended>5.01</extended>
+            <name>Edam Cheese by MW</name>
+            <price>5.01</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="0905A771">
+            <extended>6.1</extended>
+            <name>M4 Chicken Meat</name>
+            <price>6.1</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="2910h145">
+            <extended>5.21</extended>
+            <name>Fruits Nuts Cereal by ZB</name>
+            <price>5.21</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="2910h259">
+            <extended>3.21</extended>
+            <name>Multigrain Multigrain Cereal by ZG</name>
+            <price>3.21</price>
+            <quantity>1</quantity>
+        </item>
+    </items>
+    <shipping>5.0</shipping>
+    <total>44.29</total>
+</order>

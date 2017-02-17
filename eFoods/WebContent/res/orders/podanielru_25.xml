@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order id="25" submitted="2016-12-05T02:54:44.132-05:00">
+    <customer account="danielru">
+        <name>Daniel Rudnitski</name>
+    </customer>
+    <grandTotal>16.9554</grandTotal>
+    <HST>1.3754</HST>
+    <items>
+        <item number="2910h192">
+            <extended>4.09</extended>
+            <name>Z0 Chocolate Cereal</name>
+            <price>4.09</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="0905A044">
+            <extended>6.49</extended>
+            <name>Minced Rib Meat by VX</name>
+            <price>6.49</price>
+            <quantity>1</quantity>
+        </item>
+    </items>
+    <shipping>5.0</shipping>
+    <total>10.58</total>
+</order>

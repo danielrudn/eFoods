@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0"
+	xmlns:fmt="http://java.sun.com/jsp/jstl/fmt"
+	xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+	xmlns:c="http://java.sun.com/jsp/jstl/core">
+	<jsp:directive.page contentType="text/html; charset=UTF-8" 
+		pageEncoding="UTF-8" session="false"/>
+	<jsp:output doctype-root-element="html"
+		doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
+		doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+		omit-xml-declaration="true" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Foods R Us - ${category.name}</title>
+</head>
+<body>
+	<c:choose>
+		<c:when test="${empty items}">
+			<c:set var="count">${fn:length(searchResults)}</c:set>
+		</c:when>
+		<c:otherwise>
+			<c:set var="count">${fn:length(items)}</c:set>
+		</c:otherwise>
+	</c:choose>
+	<div class="filter col-md-2 col-sm-2 col-xs-12">
+		<form class="form" method="GET">
+			<legend style="padding-bottom: 8px;"><span class="glyphicon glyphicon-filter"></span> Filter - ${count} Results</legend>
+			<div class="form-group">
+				<label for="keywords">Keywords</label>
+				<input class="form-control" type="text" id="keywords" name="keywords" placeholder="keywords" value="${param['keywords'] }"/>
+			</div>
+			<div class="form-group">
+				<label for="max-price">Max Price</label>
+				<br/>
+				<c:choose>
+					<c:when test="${not empty param['maxPrice']}">
+						<span id="currentMaxPrice"><fmt:formatNumber maxFractionDigits="2" type="currency">${param['maxPrice']}</fmt:formatNumber></span>
+						<input type="range" id="maxPrice" name="maxPrice" value="${param['maxPrice']}" min="${minItemPrice}" max="${maxItemPrice}" oninput="return onMaxPriceChange(this);"/>
+					</c:when>
+					<c:otherwise>
+						<span id="currentMaxPrice"> <fmt:formatNumber maxFractionDigits="2" type="currency">${maxItemPrice}</fmt:formatNumber></span>
+						<input type="range" id="maxPrice" name="maxPrice" value="${maxItemPrice}" min="${minItemPrice}" max="${maxItemPrice}" oninput="return onMaxPriceChange(this);"/>
+					</c:otherwise>
+				</c:choose>
+			</div>
+			<div class="form-group">
+				<label for="sort">Sort</label>
+				<select class="form-control" id="sort" name="sort">
+					<c:choose>
+						<c:when test="${param['sort'] eq 'Lowest to Highest'}">
+							<option>Alphabetically</option>
+							<option>Highest to Lowest </option>
+							<option selected="true">Lowest to Highest</option>
+						</c:when>
+						<c:when test="${param['sort'] eq 'Highest to Lowest'}">
+							<option>Alphabetically</option>
+							<option selected="true">Highest to Lowest </option>
+							<option>Lowest to Highest</option>
+						</c:when>
+						<c:otherwise>
+							<option>Alphabetically</option>
+							<option>Highest to Lowest </option>
+							<option>Lowest to Highest</option>
+						</c:otherwise>
+					</c:choose>
+				</select>
+			</div>
+			<input type="hidden" name="query" value="${param['query']}"/>
+			<button type="submit" class="btn btn-default pull-right">Apply  <span class="glyphicon glyphicon-refresh"></span></button>
+		</form>
+	</div>
+</body>
+</html>
+</jsp:root>

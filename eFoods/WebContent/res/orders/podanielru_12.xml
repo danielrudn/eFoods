@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order id="12" submitted="2016-12-05T00:15:54.660-05:00">
+    <customer account="danielru">
+        <name>Daniel Rudnitski</name>
+    </customer>
+    <items>
+        <item number="2002H123">
+            <name>Provolone Cheese by RI</name>
+            <quantity>1</quantity>
+            <price>3.84</price>
+            <extended>3.84</extended>
+        </item>
+    </items>
+    <total>3.84</total>
+    <shipping>5.0</shipping>
+    <HST>0.4992</HST>
+    <grandTotal>9.3392</grandTotal>
+</order>

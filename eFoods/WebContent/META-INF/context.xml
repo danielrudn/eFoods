@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context privileged="true" reloadable="true">
+	<WatchedResource>WEB-INF/web.xml</WatchedResource>
+	<Manager pathname="" />
+	<Resource driverClassName="org.apache.derby.jdbc.ClientDriver"
+		factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+		type="javax.sql.DataSource"
+		name="jdbc/EECS"
+		url="jdbc:derby://localhost:64413/EECS"
+		username="student" password="secret"/>
+	<ResourceLink type="javax.sql.DataSource" name="jdbc/EECS" global="jdbc/EECS"/>
+</Context>

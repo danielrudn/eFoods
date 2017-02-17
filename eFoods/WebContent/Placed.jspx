@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0"
+	xmlns:fmt="http://java.sun.com/jsp/jstl/fmt"
+	xmlns:c="http://java.sun.com/jsp/jstl/core">
+	<jsp:directive.page contentType="text/html; charset=UTF-8" 
+		pageEncoding="UTF-8" session="false"/>
+	<jsp:output doctype-root-element="html"
+		doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
+		doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+		omit-xml-declaration="true" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Foods R Us - Checkout</title>
+</head>
+<body>
+	<jsp:include page="nav.jspx"/>
+	<div class="container">
+		<h1>Checkout Complete</h1>
+		<hr/>
+		<div class="btn-group" style="width: 100%;" role="group">
+			<button style="width: 33.33%;" type="button" class="btn btn-disabled">Cart <span class="glyphicon glyphicon-ok"></span></button>
+			<button style="width: 33.33%;" type="button" class="btn btn-disabled">Review <span class="glyphicon glyphicon-ok"></span></button>
+			<button style="width: 33.33%;" type="button" class="btn btn-default">Complete <span class="glyphicon glyphicon-ok"></span></button>
+		</div>
+		<hr/>
+		<h2>Thank you!</h2>
+		<p>Your order has been placed and is being processed.
+		<br/>
+		Click <a href="${pageContext.request.contextPath}/orders/${placedOrderNumber}"><strong>here</strong></a> to view your placed order.</p>
+	</div>
+</body>
+</html>
+</jsp:root>

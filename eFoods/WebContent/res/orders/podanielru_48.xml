@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order id="48" submitted="2016-12-05T21:46:39.573-05:00">
+    <customer account="danielru">
+        <name>Daniel Rudnitski</name>
+    </customer>
+    <grandTotal>49.4768</grandTotal>
+    <HST>5.1168000000000005</HST>
+    <items>
+        <item number="0905A627">
+            <extended>8.28</extended>
+            <name>Z5 Beef Meat</name>
+            <price>4.14</price>
+            <quantity>2</quantity>
+        </item>
+        <item number="2910h087">
+            <extended>6.1</extended>
+            <name>Wheat Fruits Cereal by FR</name>
+            <price>3.05</price>
+            <quantity>2</quantity>
+        </item>
+        <item number="0905A900">
+            <extended>10.64</extended>
+            <name>Thick Cut Lamb Meat by XW</name>
+            <price>5.32</price>
+            <quantity>2</quantity>
+        </item>
+        <item number="2910h734">
+            <extended>2.84</extended>
+            <name>K5 Raisin Cereal</name>
+            <price>1.42</price>
+            <quantity>2</quantity>
+        </item>
+        <item number="2910h019">
+            <extended>3.33</extended>
+            <name>L6 Fruits Cereal</name>
+            <price>3.33</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="1409S253">
+            <extended>4.3</extended>
+            <name>Brownie Ice Cream with Strawberry by SH</name>
+            <price>4.3</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="0905A365">
+            <extended>3.87</extended>
+            <name>Y1 Loin Meat</name>
+            <price>3.87</price>
+            <quantity>1</quantity>
+        </item>
+    </items>
+    <shipping>5.0</shipping>
+    <total>39.36</total>
+</order>

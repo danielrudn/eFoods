@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0"
+	xmlns:fmt="http://java.sun.com/jsp/jstl/fmt"
+	xmlns:c="http://java.sun.com/jsp/jstl/core">
+	<jsp:directive.page contentType="text/html; charset=UTF-8" 
+		pageEncoding="UTF-8" session="true"/>
+	<jsp:output doctype-root-element="html"
+		doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
+		doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+		omit-xml-declaration="true" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Foods R Us - Cart</title>
+</head>
+<body>
+	<jsp:include page="nav.jspx"/>
+	<div class="container">
+		<h1>Checkout Progress - Order Review</h1>
+		<hr/>
+		<div class="btn-group" style="width: 100%;" role="group">
+			<button style="width: 33.33%;" type="button" class="btn btn-default">Cart</button>
+			<button style="width: 33.33%;" type="button" class="btn btn-disabled">Review</button>
+			<button style="width: 33.33%;" type="button" class="btn btn-disabled">Complete</button>
+		</div>
+		<hr/>
+		<form method="post">
+			<div class="panel panel-primary">
+				<div class="panel-heading">My cart - ${sessionScope.cart.itemCount} product<c:if test="${sessionScope.cart.itemCount != 1}">s</c:if></div>
+				<table class="table table-responsive table-hover">
+					<tr><th>Product</th><th>Number</th><th>Price</th><th>Qty</th><th>Total</th></tr>
+					<c:forEach items="${sessionScope.cart.items}" var="item">
+						<tr>
+							<td>${item.key.name}</td>
+							<td>${item.key.itemNumber}</td>
+							<td><fmt:formatNumber type="currency" maxFractionDigits="2">${item.key.price}</fmt:formatNumber> ${item.key.unit}</td>
+							<td><input class="cart-item-amount" type="text" name="${item.key.itemNumber}" value="${item.value}"/></td>
+							<td><fmt:formatNumber type="currency" maxFractionDigits="2">${item.key.price * item.value}</fmt:formatNumber></td>
+						</tr>
+					</c:forEach>
+				</table>
+			</div>
+			<h3>Order Summary</h3>
+			<table class="table table-responsive table-hover" style="margin-top: 24px;">
+				<tr><td>Subtotal</td><td style="text-align: right;"><fmt:formatNumber type="currency" maxFractionDigits="2">${sessionScope.cart.subTotal}</fmt:formatNumber></td></tr>
+				<tr><td>HST (${initParam.HST}%)</td><td style="text-align: right;"><fmt:formatNumber type="currency" maxFractionDigits="2">${sessionScope.cart.tax}</fmt:formatNumber></td></tr>
+				<tr><td>Shipping*<br/><small>*Free on orders over \$${initParam.SHIPPING_FREE_CUTOFF}</small></td><td style="text-align: right;"><fmt:formatNumber type="currency" maxFractionDigits="2">${sessionScope.cart.shippingCost}</fmt:formatNumber></td></tr>
+				<tr><th>Total</th><th style="text-align: right;"><fmt:formatNumber type="currency" maxFractionDigits="2">${sessionScope.cart.total}</fmt:formatNumber></th></tr>
+			</table>
+			<div class="col-md-8 col-sm-8 col-xs-8">
+				<a class="btn btn-default" href="${pageContext.request.contextPath}">Continue Shopping <span class="glyphicon glyphicon-shopping-cart"></span></a>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-4">
+				<button class="btn btn-primary" type="submit">Apply <span class="glyphicon glyphicon-refresh"></span></button>
+				<a class="btn btn-success" href="${pageContext.request.contextPath}/Checkout">Continue Checkout <span class="glyphicon glyphicon-menu-right"></span></a>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
+</jsp:root>

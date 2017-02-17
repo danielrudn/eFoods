@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order id="37" submitted="2016-12-05T07:24:32.447-05:00">
+    <customer account="danielru">
+        <name>Daniel Rudnitski</name>
+    </customer>
+    <grandTotal>7.486000000000001</grandTotal>
+    <HST>0.28600000000000003</HST>
+    <items>
+        <item number="2910h123">
+            <extended>2.2</extended>
+            <name>C9 Multigrain Cereal</name>
+            <price>2.2</price>
+            <quantity>1</quantity>
+        </item>
+    </items>
+    <shipping>5.0</shipping>
+    <total>2.2</total>
+</order>

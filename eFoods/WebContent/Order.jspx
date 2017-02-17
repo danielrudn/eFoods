@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0"
+	xmlns:fmt="http://java.sun.com/jsp/jstl/fmt"
+	xmlns:c="http://java.sun.com/jsp/jstl/core">
+	<jsp:directive.page contentType="text/html; charset=UTF-8" 
+		pageEncoding="UTF-8" session="false"/>
+	<jsp:output doctype-root-element="html"
+		doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
+		doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+		omit-xml-declaration="true" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Foods R Us - Checkout</title>
+</head>
+<body>
+	<jsp:include page="nav.jspx"/>
+	<div class="container">
+		<c:choose>
+			<c:when test="${not empty error}">
+				<p>${error}</p>
+			</c:when>
+			<c:otherwise>
+				<h1>Placed Order for ${placedOrder.customer.username}</h1>
+				<hr/>
+				<div class="panel panel-primary">
+					<div class="panel-heading">Ordered Items</div>
+					<table class="table table-responsive table-hover">
+						<tr><th>Product</th><th>Number</th><th>Price</th><th>Qty</th><th>Total</th></tr>
+						<c:forEach items="${placedOrder.orderedItems}" var="item">
+							<tr>
+								<td>${item.name}</td>
+								<td>${item.number}</td>
+								<td><fmt:formatNumber type="currency" maxFractionDigits="2">${item.price}</fmt:formatNumber></td>
+								<td><input class="cart-item-amount" type="text" name="${item.number}" value="${item.quantity}" disabled="true"/></td>
+								<td><fmt:formatNumber type="currency" maxFractionDigits="2">${item.extended}</fmt:formatNumber></td>
+							</tr>
+						</c:forEach>
+					</table>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-6" style="margin-top: 24px;">
+					<p><strong>Order #:</strong> po${placedOrder.customer.username}_<fmt:formatNumber value="${placedOrder.id}" minIntegerDigits="2"/></p>
+					<p><strong>Placed by:</strong> ${placedOrder.customer.fullName}</p>
+					<p><strong>Date placed: </strong><fmt:formatDate value="${placedOrder.submitted}" pattern="yyyy-MM-dd hh:mm a"/></p>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-6">
+					<table class="table table-responsive table-hover" style="margin-top: 24px;">
+						<tr><td>Subtotal</td><td style="text-align: right;"><fmt:formatNumber type="currency" maxFractionDigits="2">${placedOrder.total}</fmt:formatNumber></td></tr>
+						<tr><td>HST</td><td style="text-align: right;"><fmt:formatNumber type="currency" maxFractionDigits="2">${placedOrder.HST}</fmt:formatNumber></td></tr>
+						<tr><td>Shipping</td><td style="text-align: right;"><fmt:formatNumber type="currency" maxFractionDigits="2">${placedOrder.shipping}</fmt:formatNumber></td></tr>
+						<tr><th>Total</th><th style="text-align: right;"><fmt:formatNumber type="currency" maxFractionDigits="2">${placedOrder.grandTotal}</fmt:formatNumber></th></tr>
+					</table>
+				</div>
+			</c:otherwise>
+		</c:choose>
+	</div>
+</body>
+</html>
+</jsp:root>

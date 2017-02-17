@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order id="8" submitted="2016-12-05T00:05:30.024-05:00">
+    <customer account="danielru">
+        <name>Daniel Rudnitski</name>
+    </customer>
+    <items>
+        <item number="1409S413">
+            <name>K5 Praline Ice Cream</name>
+            <quantity>1</quantity>
+            <price>6.4399999999999995</price>
+            <extended>6.4399999999999995</extended>
+        </item>
+        <item number="1409S671">
+            <name>Praline Ice Cream with Raspberry by XL</name>
+            <quantity>2</quantity>
+            <price>7.0</price>
+            <extended>14.0</extended>
+        </item>
+        <item number="1409S250">
+            <name>G8 Praline Ice Cream</name>
+            <quantity>1</quantity>
+            <price>5.0600000000000005</price>
+            <extended>5.0600000000000005</extended>
+        </item>
+        <item number="1409S702">
+            <name>A4 Brownie Ice Cream</name>
+            <quantity>1</quantity>
+            <price>5.9</price>
+            <extended>5.9</extended>
+        </item>
+        <item number="1409S381">
+            <name>Brownie Ice Cream with Praline by MG</name>
+            <quantity>1</quantity>
+            <price>7.39</price>
+            <extended>7.39</extended>
+        </item>
+        <item number="1409S454">
+            <name>N4 Nuts Ice Cream</name>
+            <quantity>1</quantity>
+            <price>4.33</price>
+            <extended>4.33</extended>
+        </item>
+        <item number="1409S690">
+            <name>V8 Brownie Ice Cream</name>
+            <quantity>1</quantity>
+            <price>6.97</price>
+            <extended>6.97</extended>
+        </item>
+    </items>
+    <total>50.09</total>
+    <shipping>5.0</shipping>
+    <HST>6.5117</HST>
+    <grandTotal>61.6017</grandTotal>
+</order>

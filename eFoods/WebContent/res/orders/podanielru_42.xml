@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order id="42" submitted="2016-12-05T08:07:35.283-05:00">
+    <customer account="danielru">
+        <name>Daniel Rudnitski</name>
+    </customer>
+    <grandTotal>53.2623</grandTotal>
+    <HST>5.552300000000001</HST>
+    <items>
+        <item number="2002H123">
+            <extended>3.84</extended>
+            <name>Provolone Cheese by RI</name>
+            <price>3.84</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="2002H397">
+            <extended>5.88</extended>
+            <name>Semi-Soft Provolone Cheese by IU</name>
+            <price>5.88</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="1409S039">
+            <extended>4.5</extended>
+            <name>M8 Peanut Ice Cream</name>
+            <price>4.5</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="2002H341">
+            <extended>6.29</extended>
+            <name>Semi-Colby Cheese by TX</name>
+            <price>6.29</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="2002H618">
+            <extended>5.36</extended>
+            <name>Semi-Edam Cheese by IJ</name>
+            <price>5.36</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="0905A471">
+            <extended>5.53</extended>
+            <name>Roast Fillet Meat by XI</name>
+            <price>5.53</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="2002H815">
+            <extended>5.88</extended>
+            <name>Gouda Cheese by YD</name>
+            <price>5.88</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="2002H230">
+            <extended>5.43</extended>
+            <name>Semi-Swiss Cheese by RI</name>
+            <price>5.43</price>
+            <quantity>1</quantity>
+        </item>
+    </items>
+    <shipping>5.0</shipping>
+    <total>42.71</total>
+</order>

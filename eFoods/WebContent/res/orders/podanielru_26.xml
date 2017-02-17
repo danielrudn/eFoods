@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order id="26" submitted="2016-12-05T02:55:19.174-05:00">
+    <customer account="danielru">
+        <name>Daniel Rudnitski</name>
+    </customer>
+    <grandTotal>10.085</grandTotal>
+    <HST>0.585</HST>
+    <items>
+        <item number="1409S039">
+            <extended>4.5</extended>
+            <name>M8 Peanut Ice Cream</name>
+            <price>4.5</price>
+            <quantity>1</quantity>
+        </item>
+    </items>
+    <shipping>5.0</shipping>
+    <total>4.5</total>
+</order>

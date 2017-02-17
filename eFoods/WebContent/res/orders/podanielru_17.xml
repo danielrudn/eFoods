@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order id="17" submitted="2016-12-05T00:22:24.643-05:00">
+    <customer account="danielru">
+        <name>Daniel Rudnitski</name>
+    </customer>
+    <items>
+        <item number="0905A127">
+            <name>N1 Breast Meat</name>
+            <quantity>1</quantity>
+            <price>5.859999999999999</price>
+            <extended>5.859999999999999</extended>
+        </item>
+    </items>
+    <total>5.859999999999999</total>
+    <shipping>5.0</shipping>
+    <HST>0.7617999999999999</HST>
+    <grandTotal>11.6218</grandTotal>
+</order>

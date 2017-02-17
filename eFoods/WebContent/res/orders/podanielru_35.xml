@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order id="35" submitted="2016-12-05T07:05:26.724-05:00">
+    <customer account="danielru">
+        <name>Daniel Rudnitski</name>
+    </customer>
+    <grandTotal>10.2771</grandTotal>
+    <HST>0.6071</HST>
+    <items>
+        <item number="0905A343">
+            <extended>4.67</extended>
+            <name>Roast Breast Meat by GH</name>
+            <price>4.67</price>
+            <quantity>1</quantity>
+        </item>
+    </items>
+    <shipping>5.0</shipping>
+    <total>4.67</total>
+</order>

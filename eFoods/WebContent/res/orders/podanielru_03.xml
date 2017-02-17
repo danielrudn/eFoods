@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order id="3" submitted="2016-12-05T00:03:21.270-05:00">
+    <customer account="danielru">
+        <name>Daniel Rudnitski</name>
+    </customer>
+    <items>
+        <item number="0905A627">
+            <name>Z5 Beef Meat</name>
+            <quantity>2</quantity>
+            <price>4.14</price>
+            <extended>8.28</extended>
+        </item>
+        <item number="0905A112">
+            <name>T6 Sirloin Meat</name>
+            <quantity>1</quantity>
+            <price>6.01</price>
+            <extended>6.01</extended>
+        </item>
+        <item number="0905A363">
+            <name>K6 Veal Meat</name>
+            <quantity>1</quantity>
+            <price>6.42</price>
+            <extended>6.42</extended>
+        </item>
+        <item number="0905A456">
+            <name>Crown Fillet Meat by TH</name>
+            <quantity>1</quantity>
+            <price>3.87</price>
+            <extended>3.87</extended>
+        </item>
+        <item number="0905A343">
+            <name>Roast Breast Meat by GH</name>
+            <quantity>2</quantity>
+            <price>4.67</price>
+            <extended>9.34</extended>
+        </item>
+        <item number="0905A589">
+            <name>X3 Lamb Meat</name>
+            <quantity>1</quantity>
+            <price>6.4</price>
+            <extended>6.4</extended>
+        </item>
+        <item number="0905A638">
+            <name>Side Breast Meat by IE</name>
+            <quantity>2</quantity>
+            <price>5.13</price>
+            <extended>10.26</extended>
+        </item>
+    </items>
+    <total>50.58</total>
+    <shipping>5.0</shipping>
+    <HST>6.5754</HST>
+    <grandTotal>62.1554</grandTotal>
+</order>

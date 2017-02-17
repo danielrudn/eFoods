@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order id="44" submitted="2016-12-05T09:09:25.702-05:00">
+    <customer account="danielru">
+        <name>Daniel Rudnitski</name>
+    </customer>
+    <grandTotal>28.7978</grandTotal>
+    <HST>2.7378</HST>
+    <items>
+        <item number="2910h123">
+            <extended>2.2</extended>
+            <name>C9 Multigrain Cereal</name>
+            <price>2.2</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="2002H867">
+            <extended>5.5</extended>
+            <name>Hard Provolone Cheese by YL</name>
+            <price>5.5</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="1409S929">
+            <extended>13.36</extended>
+            <name>Nuts Ice Cream with Vanilla by RC</name>
+            <price>6.68</price>
+            <quantity>2</quantity>
+        </item>
+    </items>
+    <shipping>5.0</shipping>
+    <total>21.06</total>
+</order>

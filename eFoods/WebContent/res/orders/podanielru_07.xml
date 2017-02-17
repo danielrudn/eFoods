@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order id="7" submitted="2016-12-05T00:05:13.128-05:00">
+    <customer account="danielru">
+        <name>Daniel Rudnitski</name>
+    </customer>
+    <items>
+        <item number="0905A363">
+            <name>K6 Veal Meat</name>
+            <quantity>1</quantity>
+            <price>6.42</price>
+            <extended>6.42</extended>
+        </item>
+        <item number="0905A365">
+            <name>Y1 Loin Meat</name>
+            <quantity>1</quantity>
+            <price>3.87</price>
+            <extended>3.87</extended>
+        </item>
+        <item number="0905A343">
+            <name>Roast Breast Meat by GH</name>
+            <quantity>1</quantity>
+            <price>4.67</price>
+            <extended>4.67</extended>
+        </item>
+    </items>
+    <total>14.96</total>
+    <shipping>5.0</shipping>
+    <HST>1.9448</HST>
+    <grandTotal>21.9048</grandTotal>
+</order>

@@ -1,0 +1,7 @@
+# eclipse stuff
+.metadata
+.recommenders
+.settings/
+.project
+.classpath
+.loadpath

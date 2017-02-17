@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order id="21" submitted="2016-12-05T02:48:18.941-05:00">
+    <customer account="danielru">
+        <name>Daniel Rudnitski</name>
+    </customer>
+    <grandTotal>27.3514</grandTotal>
+    <HST>2.5714</HST>
+    <items>
+        <item number="1409S123">
+            <extended>6.12</extended>
+            <name>E8 Nuts Ice Cream</name>
+            <price>6.12</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="1409S250">
+            <extended>5.0600000000000005</extended>
+            <name>G8 Praline Ice Cream</name>
+            <price>5.0600000000000005</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="1409S253">
+            <extended>8.6</extended>
+            <name>Brownie Ice Cream with Strawberry by SH</name>
+            <price>4.3</price>
+            <quantity>2</quantity>
+        </item>
+    </items>
+    <shipping>5.0</shipping>
+    <total>19.78</total>
+</order>

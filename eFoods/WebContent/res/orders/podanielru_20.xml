@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order id="20" submitted="2016-12-05T02:46:37.272-05:00">
+    <customer account="danielru">
+        <name>Daniel Rudnitski</name>
+    </customer>
+    <grandTotal>10.6613</grandTotal>
+    <HST>0.6513</HST>
+    <items>
+        <item number="2002H302">
+            <extended>5.01</extended>
+            <name>Edam Cheese by MW</name>
+            <price>5.01</price>
+            <quantity>1</quantity>
+        </item>
+    </items>
+    <shipping>5.0</shipping>
+    <total>5.01</total>
+</order>

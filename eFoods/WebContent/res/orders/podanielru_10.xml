@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order id="10" submitted="2016-12-05T00:05:44.677-05:00">
+    <customer account="danielru">
+        <name>Daniel Rudnitski</name>
+    </customer>
+    <items>
+        <item number="1409S253">
+            <name>Brownie Ice Cream with Strawberry by SH</name>
+            <quantity>1</quantity>
+            <price>4.3</price>
+            <extended>4.3</extended>
+        </item>
+    </items>
+    <total>4.3</total>
+    <shipping>5.0</shipping>
+    <HST>0.5589999999999999</HST>
+    <grandTotal>9.859</grandTotal>
+</order>

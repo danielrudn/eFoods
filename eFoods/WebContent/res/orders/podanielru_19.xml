@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order id="19" submitted="2016-12-05T01:56:47.136-05:00">
+    <customer account="danielru">
+        <name>Daniel Rudnitski</name>
+    </customer>
+    <grandTotal>13.079500000000001</grandTotal>
+    <HST>0.9295000000000001</HST>
+    <items>
+        <item number="1409S004">
+            <extended>7.15</extended>
+            <name>Fudge Ice Cream with Strawberry by AV</name>
+            <price>7.15</price>
+            <quantity>1</quantity>
+        </item>
+    </items>
+    <shipping>5.0</shipping>
+    <total>7.15</total>
+</order>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order id="36" submitted="2016-12-05T07:06:04.769-05:00">
+    <customer account="danielru">
+        <name>Daniel Rudnitski</name>
+    </customer>
+    <grandTotal>18.4131</grandTotal>
+    <HST>1.5431</HST>
+    <items>
+        <item number="1409S413">
+            <extended>6.4399999999999995</extended>
+            <name>K5 Praline Ice Cream</name>
+            <price>6.4399999999999995</price>
+            <quantity>1</quantity>
+        </item>
+        <item number="2002H712">
+            <extended>5.43</extended>
+            <name>Semi-Monterey Cheese by GK</name>
+            <price>5.43</price>
+            <quantity>1</quantity>
+        </item>
+    </items>
+    <shipping>5.0</shipping>
+    <total>11.87</total>
+</order>
